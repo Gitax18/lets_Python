@@ -1,0 +1,57 @@
+# Ignore Python cache and compiled files recursively
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# Ignore virtual environments recursively
+**/.env
+**/.venv
+**/env/
+**/venv/
+**/ENV/
+**/env.bak/
+**/venv.bak/
+
+# Ignore build and distribution directories recursively
+**/build/
+**/dist/
+**/*.egg-info/
+**/pip-wheel-metadata/
+
+# Ignore project-specific lockfiles and configs for nested projects
+**/Pipfile.lock
+**/poetry.lock
+**/pyproject.toml
+**/pdm.lock
+**/.pdm.toml
+**/.pdm-python
+**/.pdm-build/
+
+# Ignore IDE and tool-specific directories recursively
+**/.mypy_cache/
+**/.pytest_cache/
+**/.tox/
+**/.nox/
+**/.hypothesis/
+**/.ruff_cache/
+**/.pytype/
+**/.pyre/
+**/.ropeproject/
+**/.idea/
+**/.vscode/
+
+# Ignore Jupyter Notebook checkpoints recursively
+**/.ipynb_checkpoints/
+
+# Ignore logs and database files
+**/*.log
+**/db.sqlite3
+**/db.sqlite3-journal
+
+# Ignore temporary files and system-specific configs
+**/.DS_Store
+**/Thumbs.db
+**/desktop.ini
+
+# Ignore nested project Git configuration (if subprojects aren't independent repos)
+**/.git/
